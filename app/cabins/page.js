@@ -3,6 +3,8 @@ import { getCabins } from "../_lib/data-service";
 import { Suspense } from "react";
 import Spinner from "../_components/Spinner";
 
+export const revalidate = 3600;
+
 export const metadata = {
   title: "caibn page",
 };
